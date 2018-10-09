@@ -14,6 +14,7 @@
 		216D26A7216CE8E60084EEF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216D26A5216CE8E60084EEF4 /* LaunchScreen.storyboard */; };
 		216D26B2216CE8E70084EEF4 /* FirstIOSAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216D26B1216CE8E70084EEF4 /* FirstIOSAppTests.swift */; };
 		216D26BD216CE8E70084EEF4 /* FirstIOSAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216D26BC216CE8E70084EEF4 /* FirstIOSAppUITests.swift */; };
+		216D26CF216CF5D00084EEF4 /* Colortool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216D26CE216CF5D00084EEF4 /* Colortool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		216D26B8216CE8E70084EEF4 /* FirstIOSAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		216D26BC216CE8E70084EEF4 /* FirstIOSAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIOSAppUITests.swift; sourceTree = "<group>"; };
 		216D26BE216CE8E70084EEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216D26CE216CF5D00084EEF4 /* Colortool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colortool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		216D269B216CE8E40084EEF4 /* FirstIOSApp */ = {
 			isa = PBXGroup;
 			children = (
+				216D26CD216CF5600084EEF4 /* Model */,
 				216D26CA216CEC880084EEF4 /* Resources */,
 				216D26CC216CF0B80084EEF4 /* Controller */,
 				216D26CB216CF08E0084EEF4 /* View */,
@@ -147,6 +150,14 @@
 				216D269E216CE8E40084EEF4 /* ColorChangeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		216D26CD216CF5600084EEF4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				216D26CE216CF5D00084EEF4 /* Colortool.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +293,7 @@
 			files = (
 				216D269F216CE8E40084EEF4 /* ColorChangeViewController.swift in Sources */,
 				216D269D216CE8E40084EEF4 /* AppDelegate.swift in Sources */,
+				216D26CF216CF5D00084EEF4 /* Colortool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
